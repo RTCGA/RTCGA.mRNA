@@ -9,7 +9,7 @@
 #' \url{http://mi2-warsaw.github.io/RTCGA.data/}.
 #' Use cases, examples and information about datasets in \pkg{RTCGA.data}
 #' family can be found here: \code{browseVignettes("RTCGA")}. mRNA data format
-#' is explained here \url{https://wiki.nci.nih.gov/display/TCGA/Clinical+Data+Overview}.
+#' is explained here \url{https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data+%28array+based%29}.
 #' 
 #' @details \code{browseVignettes("RTCGA")}
 #' 
