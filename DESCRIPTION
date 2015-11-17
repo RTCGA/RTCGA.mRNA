@@ -2,7 +2,7 @@ Package: RTCGA.mRNA
 Type: Package
 Title: mRNA datasets from The Cancer Genome Atlas Project
 Version: 0.99.0
-Date: 2015-11-13
+Date: 2015-11-17
 Author: Witold Chodor <witoldchodor@gmail.com>
 Maintainer: Marcin Kosinski <m.p.kosinski@gmail.com>
 Description: Package provides mRNA datasets from The Cancer Genome

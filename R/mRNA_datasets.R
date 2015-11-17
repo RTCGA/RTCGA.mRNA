@@ -23,14 +23,13 @@
 #' @return Data frames with mRNA data.
 #' 
 #' @import RTCGA
-#' 
+#' @format NULL
 #' @source \url{http://gdac.broadinstitute.org/}
 #' 
-#' @aliases BRCA.mRNA,COAD.mRNA,COADREAD.mRNA,GBMLGG.mRNA,KIPAN.mRNA,KIRC.mRNA,KIRP.mRNA,LGG.mRNA,LUAD.mRNA,LUSC.mRNA,OV.mRNA,READ.mRNA,UCEC.mRNA
 #' 
 #' @name mRNA
 #' @rdname mRNA
-#' @format NULL
+#' @aliases BRCA.mRNA,COAD.mRNA,COADREAD.mRNA,GBMLGG.mRNA,KIPAN.mRNA,KIRC.mRNA,KIRP.mRNA,LGG.mRNA,LUAD.mRNA,LUSC.mRNA,OV.mRNA,READ.mRNA,UCEC.mRNA
 #'
 "BRCA.mRNA"
 #' @name mRNA
