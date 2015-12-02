@@ -5,10 +5,7 @@ Version: 0.99.0
 Date: 2015-12-02
 Author: Witold Chodor <witoldchodor@gmail.com>
 Maintainer: Marcin Kosinski <m.p.kosinski@gmail.com>
-Description: Package provides mRNA datasets from The Cancer Genome
-    Atlas Project for all available cohorts types from
-    http://gdac.broadinstitute.org/. Data format is
-    explained here https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data+%28array+based%29
+Description: Package provides mRNA datasets from The Cancer Genome Atlas Project for all available cohorts types from http://gdac.broadinstitute.org/. Data format is explained here https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data
 License: GPL-2
 LazyData: TRUE
 Repository: Bioconductor
