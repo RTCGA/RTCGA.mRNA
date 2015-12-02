@@ -1,6 +1,6 @@
 ---
 title: "Using `RTCGA` package to download  mRNA data that are included in `RTCGA.mRNA` package"
-subtitle: "Date of datasets release: 2015-08-21"
+subtitle: "Date of datasets release: 2015-11-01"
 author: "Witold Chodor"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
@@ -25,15 +25,16 @@ opts_chunk$set(comment="", message=FALSE, warning = FALSE, tidy.opts=list(keep.b
 source("http://bioconductor.org/biocLite.R")
 biocLite("RTCGA")
 ```
+or use below code to download the development version which is like to be more bug-free than the release version on Bioconductor:
 
-or from github
 ```{r, eval=FALSE}
 if (!require(devtools)) {
     install.packages("devtools")
     require(devtools)
 }
-biocLite("MarcinKosinski/RTCGA")
+install_github("RTCGA/RTCGA")
 ```
+
 
 Furthermore, `RTCGA` package transforms TCGA data into form which is convenient to use in R statistical package. Those data transformations can be a part of statistical analysis pipeline which can be more reproducible with `RTCGA`.
 
@@ -50,7 +51,7 @@ library(RTCGA)
 checkTCGA('Dates')
 ```
 
-Version 1.0 of `RTCGA.mRNA` package contains mRNA datasets which were released `2015-08-21`. They were downloaded in the following way (which is mainly copied from [http://marcinkosinski.github.io/RTCGA/](http://marcinkosinski.github.io/RTCGA/):
+Version 1.0 of `RTCGA.mRNA` package contains mRNA datasets which were released `2015-11-01`. They were downloaded in the following way (which is mainly copied from [http://marcinkosinski.github.io/RTCGA/](http://marcinkosinski.github.io/RTCGA/):
 
 ## Available cohorts
 
@@ -66,7 +67,7 @@ For all cohorts the following code downloads the mRNA data.
 ## Downloading tarred files
 ```{r, eval=FALSE}
 #dir.create( "data2" )
-releaseDate <- "2015-08-21"
+releaseDate <- "2015-11-01"
 sapply( cohorts, function(element){
 tryCatch({
 downloadTCGA( cancerTypes = element, 
@@ -128,10 +129,9 @@ list.files("data2") %>%
       file.path(y, list.files(y)) %>%
       assign( value = .,
               x = paste0(list.files(y) %>%
-                    
                             gsub(x = .,
-                                            pattern = "\\..*",
-                                            replacement = "") %>%
+                                 pattern = "\\..*",
+                                 replacement = "") %>%
                             gsub(x=., pattern="-", replacement = "_"),
                          ".mRNA.path"),
               envir = .GlobalEnv)
