@@ -66,7 +66,7 @@ For all cohorts the following code downloads the mRNA data.
 
 ## Downloading tarred files
 ```{r, eval=FALSE}
-#dir.create( "data2" )
+# dir.create( "data2" )
 releaseDate <- "2015-11-01"
 sapply( cohorts, function(element){
 tryCatch({
