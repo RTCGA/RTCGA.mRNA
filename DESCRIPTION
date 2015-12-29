@@ -1,15 +1,15 @@
 Package: RTCGA.mRNA
 Type: Package
 Title: mRNA datasets from The Cancer Genome Atlas Project
-Version: 0.99.0
+Version: 0.99.1
 Date: 2015-12-02
 Author: Witold Chodor <witoldchodor@gmail.com>
 Maintainer: Marcin Kosinski <m.p.kosinski@gmail.com>
-Description: Package provides mRNA datasets from The Cancer Genome Atlas Project for all available cohorts types from http://gdac.broadinstitute.org/. Data format is explained here https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data
+Description: Package provides mRNA datasets from The Cancer Genome Atlas Project for all available cohorts types from http://gdac.broadinstitute.org/. Data format is explained here https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data Data from 2015-11-01 snapshot.
 License: GPL-2
 LazyData: TRUE
 Repository: Bioconductor
-BugReports: https://github.com/RTCGA/RTCGA.data/issues
+BugReports: https://github.com/RTCGA/RTCGA/issues
 Depends:
     R (>= 3.2.0),
     RTCGA

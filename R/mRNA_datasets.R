@@ -6,10 +6,11 @@
 #' all cohorts types from \url{http://gdac.broadinstitute.org/}.
 #' Data were downloaded using \link{RTCGA-package} and contain snapshots for
 #' the date: \code{2015-11-01}. The process is described here:
-#' \url{http://mi2-warsaw.github.io/RTCGA.data/}.
+#' \url{http://rtcga.github.io/RTCGA/}.
 #' Use cases, examples and information about datasets in \pkg{RTCGA.data}
 #' family can be found here: \code{browseVignettes("RTCGA")}. mRNA data format
 #' is explained here \url{https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data}.
+#' Converting \pkg{RTCGA.mRNA} datasets from \code{data.frames} to Bioconductor classes is explained here \link{convertTCGA}.
 #' 
 #' @details \code{browseVignettes("RTCGA")}
 #' 

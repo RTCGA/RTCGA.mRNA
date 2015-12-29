@@ -5,7 +5,7 @@ author: "Witold Chodor"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Using RTCGA to download mRNA data as included in RTCGA.data}
+  %\VignetteIndexEntry{Using RTCGA to download mRNA data as included in RTCGA.mRNA}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -51,7 +51,7 @@ library(RTCGA)
 checkTCGA('Dates')
 ```
 
-Version 1.0 of `RTCGA.mRNA` package contains mRNA datasets which were released `2015-11-01`. They were downloaded in the following way (which is mainly copied from [http://marcinkosinski.github.io/RTCGA/](http://marcinkosinski.github.io/RTCGA/):
+Version 1.0 of `RTCGA.mRNA` package contains mRNA datasets which were released `2015-11-01`. They were downloaded in the following way (which is mainly copied from [http://rtcga.github.io/RTCGA/](http://rtcga.github.io/RTCGA/):
 
 ## Available cohorts
 
